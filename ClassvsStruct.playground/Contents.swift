@@ -29,6 +29,14 @@ stolenCar_s.color = "Green"
 print(stolenCar_s.color)
 print(myCar_s.color)
 
-class MyCustomButton: UIButton {
-    
-}
+
+/*
+Classes are used when you need
+- Inheritance
+- Reference
+
+Structs are used when you need
+- Perfomance
+- Lightweight
+- Value Type
+*/
