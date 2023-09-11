@@ -1,6 +1,6 @@
 import UIKit
 
-class Car {
+class Car_class {
     var year: Int
     var make: String
     var color: String
@@ -11,8 +11,24 @@ class Car {
         self.color = color
     }
 }
-var myCar = Car(year: 2022, make: "Toyota", color: "Grey")
-var stolenCar = myCar
-stolenCar.color = "Blue"
+var myCar_c = Car_class(year: 2022, make: "Toyota", color: "Grey")
+var stolenCar_c = myCar_c
+stolenCar_c.color = "Blue"
+print(stolenCar_c.color)
+print(myCar_c.color)
 
-print(myCar)
+struct Car_struct {
+    var year: Int
+    var make: String
+    var color: String
+}
+
+var myCar_s = Car_struct(year: 2008, make: "Subaru", color: "Red")
+var stolenCar_s = myCar_s
+stolenCar_s.color = "Green"
+print(stolenCar_s.color)
+print(myCar_s.color)
+
+class MyCustomButton: UIButton {
+    
+}
